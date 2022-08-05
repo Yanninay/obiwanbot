@@ -38,7 +38,7 @@ func Pass(b *gotgbot.Bot, ctx *ext.Context) error {
 	}
 	if passLength < 4 || passLength > 100 {
 		sendToLogs(b, ctx)
-		_, err := ctx.EffectiveMessage.Reply(b, "The argument you mentioned is not in the range of 4 to 128. Please check it, and specify it again", &gotgbot.SendMessageOpts{})
+		_, err := ctx.EffectiveMessage.Reply(b, "The argument you mentioned is not in the range of 4 to 100. Please check it, and specify it again", &gotgbot.SendMessageOpts{})
 		return err
 	}
 	_, _ = b.SendChatAction(ctx.EffectiveChat.Id, "typing", &gotgbot.SendChatActionOpts{})

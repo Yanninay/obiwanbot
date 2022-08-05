@@ -5,7 +5,6 @@ import (
 	"net/http"
 	"passwordgen_bot/commands"
 	"time"
-
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"

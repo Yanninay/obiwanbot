@@ -1,7 +1,7 @@
 # obiwanbot
 A simple no-surveillance bot for generating complex passwords
 
-Bot - @MisterObiwan_bot
+Bot - https://t.me/MisterObiwan_bot
 
 Have you ever wondered if sites collect the passwords they generate for you? If yes - this bot was created especially for you. It can generate a complex password of the right length, and has no connection to the Internet and does not send your data
 
